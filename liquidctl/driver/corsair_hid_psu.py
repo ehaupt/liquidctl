@@ -85,6 +85,7 @@ class CorsairHidPsuDriver(UsbHidDriver):
         (0x1b1c, 0x1c0b, None, 'Corsair RM750i (experimental)', {}),
         (0x1b1c, 0x1c0c, None, 'Corsair RM850i (experimental)', {}),
         (0x1b1c, 0x1c0d, None, 'Corsair RM1000i (experimental)', {}),
+        (0x1b1c, 0x0c04, None, 'Corsair H80i (non-GT/non-v2, made by CoolIT) (experimental)', {}),
     ]
 
     def initialize(self, single_12v_ocp=False, **kwargs):
